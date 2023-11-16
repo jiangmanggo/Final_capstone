@@ -53,14 +53,14 @@ if (isset($_SESSION['error_message'])) {
             width: 1000px;
             background-color: #7c9d8e;
             border-radius: 30px;
-            height: 75vh;
+            height: 70vh;
             margin-top: 30px;
             display: flex;
         }
 
         .card {
             width: 30%;
-            height: 60vh;
+            height: 55vh;
             margin-left: 40px;
             margin-top: 30px;
             background-color: #f9f6ee;

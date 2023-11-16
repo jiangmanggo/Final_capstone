@@ -29,7 +29,7 @@
             ?>
                 <script>
                     alert('uploaded successfully');
-                    window.location='../edit_profile.php?id=<?php echo $id?>';
+                    window.location='../profile.php?id=<?php echo $id?>';
                 </script>
             <?php
         }catch(\Throwable $th){

@@ -120,7 +120,7 @@
                 margin-top: 30px;
                 margin-left: 125px;
                 width: 530px;
-                height: 380px;
+                height: 403px;
                 background-color: #f5f5f5;
                 cursor: pointer;
                 font-family: 'Poppins', sans-serif;

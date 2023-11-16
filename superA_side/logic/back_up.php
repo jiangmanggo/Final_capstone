@@ -16,7 +16,7 @@ try {
     $sqlScript = "-- DATABASE NAME: bcaaoms\n";
 
     foreach ($tables as $table) {
-        $query = "SHOW CREATE TABLE `$table`"; // Wrap table name in backticks
+        $query = "SHOW CREATE TABLE `$table`"; 
         $result = mysqli_query($connect, $query);
 
         if (!$result) {
@@ -27,7 +27,7 @@ try {
 
         $sqlScript .= "\n\n" . $row[1] . ";\n\n";
 
-        $query = "SELECT * FROM `$table`"; // Wrap table name in backticks
+        $query = "SELECT * FROM `$table`"; 
         $result = mysqli_query($connect, $query);
 
         if (!$result) {
@@ -48,7 +48,7 @@ try {
     }
 
     if (!empty($sqlScript)) {
-        $backup_file_name = 'bcaaoms' . time() . '.sql';
+        $backup_file_name = 'bcaaoms.sql';
         $fileHandler = fopen($backup_file_name, 'w+');
         $number_of_lines = fwrite($fileHandler, $sqlScript);
         fclose($fileHandler);
@@ -64,12 +64,11 @@ try {
         ob_clean();
         flush();
         readfile($backup_file_name);
-        unlink($backup_file_name); // Use unlink instead of exec('rm ...')
+        unlink($backup_file_name); 
     }
 } catch (Exception $e) {
     echo "Error: " . $e->getMessage();
 }
 
-// Close the database connection
 mysqli_close($connect);
 ?>

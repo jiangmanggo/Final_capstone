@@ -141,7 +141,7 @@
                             <input type="text"  class="form" name="fname" placeholder="First Name" required autocomplete="given-name"><span><br>
                             <input type="text" class="form" name="lname" placeholder="Last Name" required autocomplete="family-name"><br> 
                             <?php 
-                                $query = "SELECT address FROM seller_address ORDER BY address ASC";
+                                $query = "SELECT address FROM client_address ORDER BY address ASC";
                                 $result = $connect->query($query);
                             ?>
                             <select name="address" class="selection" placeholder="Select Address" required autocomplete="address">>

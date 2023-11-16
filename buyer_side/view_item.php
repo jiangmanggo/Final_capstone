@@ -75,7 +75,7 @@
                             <div class="date dmt-2">Date posted:
                                     <?php echo $product_listrow["date_posted"];?></div>
                             <div class="store mt-1"> 
-                                <a href="../farmer_side/visitprofile.php"><span class="font-weight-bold">Seller:  <?php echo $product_listrow["username"];?></span> </a>                              
+                                <span class="font-weight-bold">Seller:  <?php echo $product_listrow["username"];?></span>                              
                             </div>                                
                         </div> 
                     </div>                    

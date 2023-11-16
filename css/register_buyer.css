@@ -1,0 +1,92 @@
+body {
+    background-image: linear-gradient(to bottom right, #f2f3f4, #74c69d);
+    background-attachment: fixed;
+}
+.user_card {
+    height: 33em;
+    width: 43em;
+    margin-top: 5em;
+    margin-left: 21em;
+    background: #fff;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0.8em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 1em;
+}
+.brand_logo_container {
+    position: absolute;
+    height: 8.6em;
+    width: 9em;
+    top: -75px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom right, #f2f3f4, #74c69d);
+    padding: 10px;
+    margin-left: 3.9em;
+}
+.brand_logo {
+    height: 8.5em;
+    width: 11.5em;
+    margin-left: -0.2em;
+    margin-top: -0.8em;
+}         
+.regis_btn{
+    width: 20em;
+    height: 2.5em;
+    font-family: 'Arial';
+    font-size: 1em;
+    background: #73a16c !important;
+    color: white !important;
+    margin-top: 0.2em; 
+    margin-left: 11.3em; 
+}
+.regis_btn:focus {
+    box-shadow: none !important;
+    outline: 0px !important;
+}
+.text{ 
+    margin-top: 0;
+    margin-bottom: 2.5em; 
+    font-size: 0.5em; 
+    margin-left: 25em; 
+    text-align: center; 
+} 
+@media only screen and (min-width: 320px)
+{ 
+    *{ padding-right: 50px; 
+        padding-top: 10px; 
+    } 
+} 
+.form{
+    border: 0.1em solid #3c565b; 
+    border-radius: 0.3em;  
+    outline: 0.5em;
+    display: flex;
+    font-size: 1em;
+    margin-left: 5em;         
+}    
+input {
+    display: block; 
+    width: 15em; 
+    height: 2.3em; 
+    padding: 0.5em; 
+    margin: 0.1em auto;
+    border-radius: 1em; 
+} 
+.form{ 
+    display: flex;
+    font-size: 1em;
+    margin-left: 5em;
+}       
+h5{
+    margin-top: 3em;
+    margin-left: 11em;
+}
+.reg{
+    margin-left: 6em;
+    margin-top: -0.5em;
+}

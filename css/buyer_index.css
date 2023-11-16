@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+}
+
+html {
+    font-size: 0.8em;
+}
+
+.search-form {
+    padding-left: 25px;
+    border-radius: 15px;
+}
+
+.search-form .search-text {
+    font-size: 0.5em;
+}
+
+button {
+    width: 5%;
+    height: 5vh;
+    background-color: #728c69;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+button i {
+    color: white;
+    font-size: 15px;
+}
+
+main {
+    max-width: 1500px;
+    width: 100%;
+    margin: 30px auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-left: 75px;
+}
+
+main .card {
+    max-width: 300px;
+    flex: 1 1 210px;
+    text-align: center;
+    height: 260px;
+    margin: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #d0f0c0;
+}
+
+main .card .img {
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 50%;
+    margin-bottom: 20px;
+}
+
+main .card .img .image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+main .card .caption-1 {
+    padding-left: 1.5em;
+    text-align: left;
+    line-height: 1em;
+    display: flex;
+    font-size: 1rem;
+    width: 65%;
+    gap: 85px;
+    color: #565555;
+    margin-top: 25px;
+    text-decoration: italic;
+}
+
+main .card .caption-2 {
+    padding-left: 1.5em;
+    text-align: left;
+    line-height: 1.5em;
+    display: flex;
+    font-size: 1rem;
+    gap: 50px;
+    margin-bottom: 5px;
+    width: 90%;
+    color: #565555;
+}
+
+main .card .caption p {
+    font-size: 1.5rem;
+}
+
+.content {
+    transition: transform 0.1s;
+}
+
+.content:hover {
+    transform: scale(1.1);
+}
+
+@media only screen and (max-width: 1200px) {
+    main .card {
+        max-width: 45%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    main .card {
+        max-width: 100%;
+    }
+}

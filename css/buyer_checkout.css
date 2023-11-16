@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body {
+    background-color: #f5f5f5;
+}
+.receipt {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Poppins', sans-serif;
+    margin-top: 3%;
+    font-size: 17px;
+    background-color: #fff;
+}
+.item-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top:1em;
+    color: #2c3539;
+}
+.item-table th {
+    background-color: #f2f2f2;
+    text-align: left;
+    padding: 8px;
+    padding-left: 3em;
+}
+.item-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+.item-table td {
+    padding: 9px;
+    padding-left: 3em;
+}
+.total {
+    margin-left: 75%;
+    font-size: 18px;
+    color: #2c3539;
+    margin-top: 1em;
+}
+.shop {
+    background-color: #99c68e;
+    width: 13em;
+    height: 2.6em;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 2%;
+    margin-left: 28%;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.shop:hover {
+    background-color: #8fbc8f;
+}

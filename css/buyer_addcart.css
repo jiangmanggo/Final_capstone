@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+.shopping-cart table {
+    text-align: center;
+    width: 100%;
+}
+
+.shopping-cart table thead th {
+    padding: 11px;
+    font-size: 1em;
+    color: var(--white);
+    background-color: #9DC183;
+    font-family: 'Poppins', sans-serif;
+    border: transparent;
+}
+
+.shopping-cart table tr td {
+    border-bottom: border;
+    padding: 1.5rem;
+    font-size: 1em;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    padding: 1.5rem;
+    background-color: #f5f5f5;
+}
+
+.shopping-cart table input[type="number"] {
+    padding: 4px 5px;
+    margin-top: 1em;
+    font-size: 1em;
+    color: black;
+    width: 4.8rem;
+}
+
+.shopping-cart table input[type="submit"] {
+    padding: .5em 1.5em;
+    cursor: pointer;
+    font-size: 0.5em;
+    width: 1px;
+    background-color: #98bf64;
+    color: black;
+    border: 0.1em solid #3c565b;
+    border-radius: 0.3em;
+    outline: 0.1em;
+}
+
+.shopping-cart table input[type="submit"]:hover {
+    background-color: #597d35;
+}
+
+.bod {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 1em;
+    font-family: 'Poppins', sans-serif;
+}
+
+.check {
+    margin-left: 37.8em;
+    background-color: #008081;
+    text-align: center;
+    color: black;
+    border-radius: 5px;
+}
+
+.back {
+    margin-left: 5.7em;
+}
+
+.container {
+    border: none;
+}
+
+.btn:disabled {
+    text-decoration: none;
+    border: transparent;
+    width: 155px;
+}
+
+@media (max-width: 1200px) {
+}
